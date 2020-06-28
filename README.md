@@ -6,8 +6,8 @@
 I made **4nn0y3r** to mostly practice Web Automation, but also to show how automation _could be_ used with malicious intent!
 
 ## How do I use this?
-### This script currently only supports Chrome and Microsoft Edge for Windows.
-##### More support shall be added soon!
+#### This script currently only supports Chrome and Microsoft Edge for Windows. More support shall be added soon!
+
 It's pretty straightforward:  
 1. Make sure you have `python3` installed in your system.
 2. Open a command line and navigate to your directory.
