@@ -13,7 +13,7 @@ It's pretty straightforward:
 1. Make sure you have `python3` installed in your system.
 2. Open a command line and navigate to your directory.
 3. Type `pip install -r requirements.txt` 
-4. Once the libs required are installed, type `python whatsapp.py` to run the script.
+4. Once the libs that are required are installed, type `python whatsapp.py` to run the script.
 5. Follow the on screen instructions.
 
 ## Who made this?
