@@ -7,6 +7,7 @@ I made **4nn0y3r** to mostly practice Web Automation, but also to show how autom
 
 ## How do I use this?
 #### This script currently only supports Chrome and Microsoft Edge for Windows. More support shall be added soon!
+#### It only supports WhatsApp for now!
 
 It's pretty straightforward:  
 1. Make sure you have `python3` installed in your system.
