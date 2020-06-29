@@ -11,7 +11,7 @@ I made **4nn0y3r** to mostly practice Web Automation, but also to show how autom
 
 It's pretty straightforward:  
 1. Make sure you have `python3` installed in your system.
-2. Open a command line and navigate to your directory.
+2. Open a command line and navigate to your directory or you can hold `SHIFT and right click` in the folder and choose `Open PowerShell window here`
 3. Type `pip install -r requirements.txt` 
 4. Once the libs that are required are installed, type `python whatsapp.py` to run the script.
 5. Follow the on screen instructions.
