@@ -87,10 +87,17 @@ def directory_choice(browser):
             print("\nInvalid choice! Try again.")
             directory_choice(browser)
 
-# Function to get name to spam
+# Function to get names to spam
 def name_chooser():
-    choice = input("\nEnter the name of the person you want to spam: ")
-    return choice
+    print("\nEnter the usernames of the people you want to spam: ")
+    print("\nType END when you are done.\n")
+    names=[]
+    while True:
+        name = str(input())
+        if(name.lower() == "end"):
+            break
+        names.append(name)
+    return names
 
 # Function to get number of times to spam
 def count_chooser():
@@ -103,7 +110,7 @@ def count_chooser():
 # Function to get the message from the user
 def message_chooser():
     print("\nEnter your message, press enter for multiple lines.")
-    print("\nType END to stop.\n")
+    print("\nType END when you are done.\n")
     lines = []
     while True:
         line = str(input())
@@ -113,7 +120,7 @@ def message_chooser():
     return lines
 
 # Recursive function to make sure user has authenticated themselves
-def has_authenticated(driver):
+def has_authenticated_whatsapp(driver):
     from selenium import webdriver
     from selenium.common.exceptions import NoSuchElementException
     import time
@@ -123,3 +130,14 @@ def has_authenticated(driver):
         time.sleep(5)
         has_authenticated(driver)
     return True
+
+# Function to get Instagram login
+def username_chooser_insta():
+    username = input("\n Please enter your Instagram username: ")
+    return username
+
+# Function to get Instagram password
+def password_chooser_insta():
+    from getpass import getpass
+    password = getpass("\n Please enter your Instagram password: ")
+    return password
