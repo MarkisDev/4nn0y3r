@@ -6,7 +6,7 @@
 I made **4nn0y3r** to mostly practice Web Automation, but also to show how automation _could be_ used with malicious intent!
 
 ## How do I use this?
-#### This script currently only supports Chrome and Microsoft Edge for _Windows_. More support shall be added soon!
+#### This script currently only supports Chrome and Microsoft Edge for Windows. More support shall be added soon!
 #### It supports WhatsApp and Instagram!
 
 It's pretty straightforward:  
