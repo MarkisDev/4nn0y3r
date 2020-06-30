@@ -128,7 +128,7 @@ def has_authenticated_whatsapp(driver):
         driver.find_element_by_xpath("//*[@id=\"side\"]/div[1]/div[1]/label[1]/div[1]/div[2]")
     except NoSuchElementException:
         time.sleep(5)
-        has_authenticated(driver)
+        has_authenticated_whatsapp(driver)
     return True
 
 # Function to get Instagram login
