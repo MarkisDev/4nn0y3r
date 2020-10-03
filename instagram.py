@@ -51,7 +51,7 @@ elif(browser == 2):
 # Open Instagram
 driver.set_page_load_timeout(15)
 driver.get("https://instagram.com")
-time.sleep(3)
+time.sleep(5)
 
 # Entering Instagram username
 driver.find_element_by_name("username").send_keys(username)
@@ -63,15 +63,15 @@ time.sleep(1)
 
 # Logging in
 driver.find_element_by_xpath("//*[@id=\"react-root\"]/section[1]/main[1]/article[1]/div[2]/div[1]/div[1]/form[1]/div[4]/button[1]").click()
-time.sleep(3)
+time.sleep(5)
 
-# Running a loop to cvisit each username and send message
+# Running a loop to visit each username and send message
 for name in names:
     driver.get(f"https://instagram.com/{name}")
-    time.sleep(3)
+    time.sleep(5)
     # Opening message box
     driver.find_element_by_xpath("//*[@id=\"react-root\"]/section[1]/main[1]/div[1]/header[1]/section[1]/div[1]/div[1]/div[1]/button[1]").click()
-    time.sleep(3)
+    time.sleep(5)
     # Running a loop to type message X times
     for i in range(count):
         # Running a loop to type message
