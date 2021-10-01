@@ -62,6 +62,7 @@ if has_authenticated_whatsapp(driver):
         driver.find_element_by_xpath("//*[@id=\"side\"]/div[1]/div[1]/label[1]/div[1]/div[2]").send_keys(Keys.ENTER)
         time.sleep(2)
         # Running a loop to send message
+        print("Getting ready to 4nn0y!")
         for i in range(count):
             # Running a loop to type the message's different lines
             for j in range(len(message)):
