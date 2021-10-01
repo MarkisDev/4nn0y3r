@@ -1,6 +1,6 @@
 # 4nn0y3r - A script to literally annoy people!
 
-## Please use this at your own discretion, neither am I or anyone associated with the script responsible for what you do!
+## Please use this at your own discretion, neither am I nor is anyone associated with the script responsible for what you do!
 
 ## Why was this made?
 I made **4nn0y3r** to mostly practice Web Automation, but also to show how automation _could be_ used with malicious intent!
